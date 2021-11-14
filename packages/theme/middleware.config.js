@@ -1,7 +1,7 @@
 module.exports = {
   integrations: {
-    <% INTEGRATION %>: {
-      location: '@vue-storefront/<% INTEGRATION %>-api/server',
+    columbus: {
+      location: '@vue-storefront/columbus-api/server',
       configuration: {}
     }
   }
